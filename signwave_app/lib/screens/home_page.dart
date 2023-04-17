@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Expanded(
                                   flex: 2,
                                   child: Text(
-                                    'Apple',
+                                    'I Love you',
                                     style: TextStyle(
                                         color: Colors.redAccent,
                                         fontWeight: FontWeight.w600,
@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Expanded(
                                   flex: 2,
                                   child: Text(
-                                    'Orange',
+                                    'Yes',
                                     style: TextStyle(
                                         color: Colors.orangeAccent,
                                         fontWeight: FontWeight.w600,
