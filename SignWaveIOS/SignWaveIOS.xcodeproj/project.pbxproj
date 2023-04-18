@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9946CC729EEB310004C312D /* SignWaveIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946CC629EEB310004C312D /* SignWaveIOSApp.swift */; };
+		D9946CC929EEB310004C312D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946CC829EEB310004C312D /* ContentView.swift */; };
+		D9946CCB29EEB312004C312D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9946CCA29EEB312004C312D /* Assets.xcassets */; };
+		D9946CCE29EEB312004C312D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9946CCD29EEB312004C312D /* Preview Assets.xcassets */; };
+		D9946CD829EEB312004C312D /* SignWaveIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946CD729EEB312004C312D /* SignWaveIOSTests.swift */; };
+		D9946CE229EEB312004C312D /* SignWaveIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946CE129EEB312004C312D /* SignWaveIOSUITests.swift */; };
+		D9946CE429EEB312004C312D /* SignWaveIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946CE329EEB312004C312D /* SignWaveIOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9946CD429EEB312004C312D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9946CBB29EEB310004C312D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9946CC229EEB310004C312D;
+			remoteInfo = SignWaveIOS;
+		};
+		D9946CDE29EEB312004C312D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9946CBB29EEB310004C312D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9946CC229EEB310004C312D;
+			remoteInfo = SignWaveIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9946CC329EEB310004C312D /* SignWaveIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignWaveIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9946CC629EEB310004C312D /* SignWaveIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignWaveIOSApp.swift; sourceTree = "<group>"; };
+		D9946CC829EEB310004C312D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9946CCA29EEB312004C312D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9946CCD29EEB312004C312D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9946CD329EEB312004C312D /* SignWaveIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignWaveIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9946CD729EEB312004C312D /* SignWaveIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignWaveIOSTests.swift; sourceTree = "<group>"; };
+		D9946CDD29EEB312004C312D /* SignWaveIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignWaveIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9946CE129EEB312004C312D /* SignWaveIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignWaveIOSUITests.swift; sourceTree = "<group>"; };
+		D9946CE329EEB312004C312D /* SignWaveIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignWaveIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9946CC029EEB310004C312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CD029EEB312004C312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CDA29EEB312004C312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9946CBA29EEB310004C312D = {
+			isa = PBXGroup;
+			children = (
+				D9946CC529EEB310004C312D /* SignWaveIOS */,
+				D9946CD629EEB312004C312D /* SignWaveIOSTests */,
+				D9946CE029EEB312004C312D /* SignWaveIOSUITests */,
+				D9946CC429EEB310004C312D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9946CC429EEB310004C312D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9946CC329EEB310004C312D /* SignWaveIOS.app */,
+				D9946CD329EEB312004C312D /* SignWaveIOSTests.xctest */,
+				D9946CDD29EEB312004C312D /* SignWaveIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9946CC529EEB310004C312D /* SignWaveIOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9946CC629EEB310004C312D /* SignWaveIOSApp.swift */,
+				D9946CC829EEB310004C312D /* ContentView.swift */,
+				D9946CCA29EEB312004C312D /* Assets.xcassets */,
+				D9946CCC29EEB312004C312D /* Preview Content */,
+			);
+			path = SignWaveIOS;
+			sourceTree = "<group>";
+		};
+		D9946CCC29EEB312004C312D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9946CCD29EEB312004C312D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9946CD629EEB312004C312D /* SignWaveIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9946CD729EEB312004C312D /* SignWaveIOSTests.swift */,
+			);
+			path = SignWaveIOSTests;
+			sourceTree = "<group>";
+		};
+		D9946CE029EEB312004C312D /* SignWaveIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9946CE129EEB312004C312D /* SignWaveIOSUITests.swift */,
+				D9946CE329EEB312004C312D /* SignWaveIOSUITestsLaunchTests.swift */,
+			);
+			path = SignWaveIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9946CC229EEB310004C312D /* SignWaveIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9946CE729EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOS" */;
+			buildPhases = (
+				D9946CBF29EEB310004C312D /* Sources */,
+				D9946CC029EEB310004C312D /* Frameworks */,
+				D9946CC129EEB310004C312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignWaveIOS;
+			productName = SignWaveIOS;
+			productReference = D9946CC329EEB310004C312D /* SignWaveIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9946CD229EEB312004C312D /* SignWaveIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9946CEA29EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOSTests" */;
+			buildPhases = (
+				D9946CCF29EEB312004C312D /* Sources */,
+				D9946CD029EEB312004C312D /* Frameworks */,
+				D9946CD129EEB312004C312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9946CD529EEB312004C312D /* PBXTargetDependency */,
+			);
+			name = SignWaveIOSTests;
+			productName = SignWaveIOSTests;
+			productReference = D9946CD329EEB312004C312D /* SignWaveIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9946CDC29EEB312004C312D /* SignWaveIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9946CED29EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOSUITests" */;
+			buildPhases = (
+				D9946CD929EEB312004C312D /* Sources */,
+				D9946CDA29EEB312004C312D /* Frameworks */,
+				D9946CDB29EEB312004C312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9946CDF29EEB312004C312D /* PBXTargetDependency */,
+			);
+			name = SignWaveIOSUITests;
+			productName = SignWaveIOSUITests;
+			productReference = D9946CDD29EEB312004C312D /* SignWaveIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9946CBB29EEB310004C312D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D9946CC229EEB310004C312D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D9946CD229EEB312004C312D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9946CC229EEB310004C312D;
+					};
+					D9946CDC29EEB312004C312D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9946CC229EEB310004C312D;
+					};
+				};
+			};
+			buildConfigurationList = D9946CBE29EEB310004C312D /* Build configuration list for PBXProject "SignWaveIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9946CBA29EEB310004C312D;
+			productRefGroup = D9946CC429EEB310004C312D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9946CC229EEB310004C312D /* SignWaveIOS */,
+				D9946CD229EEB312004C312D /* SignWaveIOSTests */,
+				D9946CDC29EEB312004C312D /* SignWaveIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9946CC129EEB310004C312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9946CCE29EEB312004C312D /* Preview Assets.xcassets in Resources */,
+				D9946CCB29EEB312004C312D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CD129EEB312004C312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CDB29EEB312004C312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9946CBF29EEB310004C312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9946CC929EEB310004C312D /* ContentView.swift in Sources */,
+				D9946CC729EEB310004C312D /* SignWaveIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CCF29EEB312004C312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9946CD829EEB312004C312D /* SignWaveIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9946CD929EEB312004C312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9946CE429EEB312004C312D /* SignWaveIOSUITestsLaunchTests.swift in Sources */,
+				D9946CE229EEB312004C312D /* SignWaveIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9946CD529EEB312004C312D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9946CC229EEB310004C312D /* SignWaveIOS */;
+			targetProxy = D9946CD429EEB312004C312D /* PBXContainerItemProxy */;
+		};
+		D9946CDF29EEB312004C312D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9946CC229EEB310004C312D /* SignWaveIOS */;
+			targetProxy = D9946CDE29EEB312004C312D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9946CE529EEB312004C312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9946CE629EEB312004C312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9946CE829EEB312004C312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignWaveIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9946CE929EEB312004C312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignWaveIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9946CEB29EEB312004C312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignWaveIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignWaveIOS";
+			};
+			name = Debug;
+		};
+		D9946CEC29EEB312004C312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignWaveIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignWaveIOS";
+			};
+			name = Release;
+		};
+		D9946CEE29EEB312004C312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignWaveIOS;
+			};
+			name = Debug;
+		};
+		D9946CEF29EEB312004C312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SignWaveIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignWaveIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9946CBE29EEB310004C312D /* Build configuration list for PBXProject "SignWaveIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9946CE529EEB312004C312D /* Debug */,
+				D9946CE629EEB312004C312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9946CE729EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9946CE829EEB312004C312D /* Debug */,
+				D9946CE929EEB312004C312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9946CEA29EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9946CEB29EEB312004C312D /* Debug */,
+				D9946CEC29EEB312004C312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9946CED29EEB312004C312D /* Build configuration list for PBXNativeTarget "SignWaveIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9946CEE29EEB312004C312D /* Debug */,
+				D9946CEF29EEB312004C312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9946CBB29EEB310004C312D /* Project object */;
+}

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:tflite/tflite.dart';
 
 typedef void Callback(List<dynamic> list);
-
 class Camera extends StatefulWidget {
   final List<CameraDescription> cameras;
   final Callback setRecognitions;

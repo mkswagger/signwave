@@ -53,13 +53,16 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "TensorFlow Lite App",
+          "SignWave",
         ),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color.fromARGB(255, 195, 145, 71),
       ),
       body: Stack(
         children: [
-          Camera(cameras!, setRecognitions),
+          Container(
+            height: 300,
+            width: 600,
+            child: Camera(cameras!, setRecognitions)),
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
